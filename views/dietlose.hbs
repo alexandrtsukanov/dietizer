@@ -1,0 +1,105 @@
+
+{{#with diet}}
+
+<div class="containergaindiet">
+
+  <br>
+
+<div class="herznaetkaknazvat">
+<div class="dietoutput">
+
+<h4>Daily amount of calories: {{caloriesSum}}</h4>
+<h4>Daily amount of proteins: {{proteinsSum}}</h4>
+<h4>Daily amount of fats: {{fatsSum}}</h4>
+<h4>Daily amount of carbs: {{carbsSum}}</h4>
+
+</div>
+
+<div class="buttonhome">
+<form action="/home" method="POST">
+  <button class="buttonhomehome">Home</button>
+</form>
+</div>
+
+</div>
+
+  <hr>
+
+  <div class="containergain">
+
+    <div>
+
+      <ul> Monday:
+        <li>Breakfast: {{buckwheatPortionBreakfast}} g of buckwheat, {{chickenBreastPortionBreakfast}} g of
+          chickenBreast</li>
+        <li>Lunch: {{ricePortionLunch}} g of rice, {{turkeyBreastPortionLunch}} g of turkey, veggies</li>
+        <li>Supper: {{noodlesPortionSupper}} g of noodles, {{curdPortionSupper}} g of curd</li>
+      </ul>
+
+      <br>
+
+      <ul> Tuesday:
+        <li>Breakfast: {{oatwheatPortionBreakfast}} g of oatwheat, {{eggsPortionBreakfast}} g of eggs</li>
+        <li>Lunch: {{noodlesPortionLunch}} g of noodles, {{tunaPortionLunch}} g of tuna, veggies</li>
+        <li>Supper: {{buckwheatPortionSupper}} g of buckwheat, {{curdPortionSupper}} g of curd</li>
+      </ul>
+
+      <br>
+
+      <ul> Wednesday:
+        <li>Breakfast: {{ricePortionBreakfast}} g of rice, {{chickenBreastPortionBreakfast}} g of chickenBreast</li>
+        <li>Lunch: {{buckwheatPortionLunch}} g of buckwheat, {{chickenBreastPortionLunch}} g of chickenBreast, veggies
+        </li>
+        <li>Supper: {{ricePortionSupper}} g of rice, {{curdPortionSupper}} g of curd</li>
+      </ul>
+
+      <br>
+
+      <ul> Thursday:
+        <li>Breakfast: {{buckwheatPortionBreakfast}} g of buckwheat, {{chickenBreastPortionBreakfast}} g of
+          chickenBreast</li>
+        <li>Lunch: {{ricePortionLunch}} g of rice, {{turkeyBreastPortionLunch}} g of turkey, veggies</li>
+        <li>Supper: {{noodlesPortionSupper}} g of noodles, {{curdPortionSupper}} g of curd</li>
+      </ul>
+
+      <br>
+
+      <ul> Friday:
+        <li>Breakfast: {{oatwheatPortionBreakfast}} g of oatwheat, {{eggsPortionBreakfast}} g of eggs</li>
+        <li>Lunch: {{noodlesPortionLunch}} g of noodles, {{tunaPortionLunch}} g of tuna, veggies</li>
+        <li>Supper: {{buckwheatPortionSupper}} g of buckwheat, {{curdPortionSupper}} g of curd</li>
+      </ul>
+
+      <br>
+
+      <ul> Saturday:
+        <li>Breakfast: {{buckwheatPortionBreakfast}} g of buckwheat, {{chickenBreastPortionBreakfast}} g of
+          chickenBreast</li>
+        <li>Lunch: {{buckwheatPortionLunch}} g of buckwheat, {{chickenBreastPortionLunch}} g of chickenBreast</li>
+        <li>Supper: {{buckwheatPortionSupper}} g of buckwheat, {{chickenBreastPortionSupper}} g of chickenBreast</li>
+      </ul>
+
+      <br>
+
+      <ul> Sunday:
+        <li>Breakfast: {{ricePortionBreakfast}} g of rice, {{chickenBreastPortionBreakfast}} g of chickenBreast</li>
+        <li>Lunch: {{buckwheatPortionLunch}} g of buckwheat, {{chickenBreastPortionLunch}} g of chickenBreast, veggies
+        </li>
+        <li>Supper: {{ricePortionSupper}} g of rice, {{curdPortionSupper}} g of curd</li>
+      </ul>
+
+      <br>
+
+      <h4>Thanks to our cookers!!! &#10084; </h4>
+
+    </div>
+
+    <div class="hemsworthphoto">
+      <img id="hemsworth"
+        src="https://i.pinimg.com/originals/7b/45/65/7b4565cb0d667d17be6334e6c4bee959.png"
+        alt="">
+    </div>
+
+  </div>
+
+  {{/with}}

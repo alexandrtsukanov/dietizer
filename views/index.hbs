@@ -1,0 +1,130 @@
+<div class="container">
+
+<h1 class="head">Hi, how you're doing? Welcome to Dietizer!</h1>
+
+<hr>
+
+<h3 class="head">I'm gonna help you to reach your goals either to gain muscles or lose weight to get you into the better physique and healthier well being. Good luck!</h3>
+
+
+<br>
+
+<h4>To get your diet and training plan answer the questions below:</h4>
+
+<br>
+<div id="mainpage">
+<div id="menu">
+
+<form action="/diet" method="POST" name="dietform">
+
+  <div class="pointmenu">
+    <label for="sex">Choose your sex</label>
+    <select name="sex" class="field">
+      <option value="male">Male</option>
+      <option value="female">Female</option>
+    </select>
+  </div>
+
+  <div class="pointmenu">
+    <label for="aim">Choose your aim</label>
+    <select name="aim" class="field">
+      <option value="gainMuscles">Gain muscles</option>
+      <option value="loseWeight">Lose weight</option>
+    </select>
+  </div>
+
+
+  <div class="pointmenu">
+    <label for="age">Age (years)</label>
+    <input type="number" name="age" class="field">
+  </div>
+
+
+  <div class="pointmenu">
+    <label for="weight">Weight (kg)</label>
+    <input type="number" name="weight" class="field">
+  </div>
+
+
+  <div class="pointmenu">
+    <label for="height">Height (cm)</label>
+    <input type="number" name="height" class="field">
+  </div>
+
+
+  <div class="pointmenu">
+    <label for="bodyType">Choose your body type (which of the following is more refered to you?)</label>
+    <select name="bodyType" class="field">
+      <option value="ectomorf">Gaining weight hard</option>
+      <option value="mezomorf">Always have been slim, do not gain weight fast</option>
+      <option value="endomorf">Gaining weight easily</option>
+    </select>
+</div>
+
+
+<div class="pointmenu">
+    <label for="activity">Choose the level of your daily activity</label>
+    <select name="activity" class="field">
+      <option value="1.1">Office job, move rarely</option>
+      <option value="1.25">Office job, train 1-3 times a week</option>
+      <option value="1.5">Active lifestyle, train 3-5 times a week</option>
+      <option value="1.75">Physical work or intense workout 5-7 times a week</option>
+      <option value="2">Hard physical work</option>
+    </select>
+</div>
+
+
+<div class="pointmenu">
+    <label for="isVegan">Are you vegan?</label>
+    <select name="isVegan" class="field">
+      <option value="false">No</option>
+      <option value="true">Yes</option>
+    </select>
+</div>
+
+<hr>
+
+  <div class="buttons">
+
+    <button class="button">Get diet!</button>
+
+    <button class="button" id="buttontrain">Get exercises!</button>
+
+  </div>
+
+  </form>
+</div>
+
+<div id="photos">
+  <img src="http://cosmetic.ua/uploads/spool/photo/00000022733-filename-00001-tape.jpg" class="photoindex">
+</div>
+
+</div>
+
+<div>
+  You can also figure out energetical and nutritional value of any food you want to correct or compose your dieting plan by yourself. All you need to do is just to click the button below so you'll get into the page where you can enter the name of product you are intersted to find data about
+  <br> 
+  <form action="/getdata" method="POST">
+  <button>So what are you waiting for, I want it!</button>  
+  </form>
+</div>
+
+</div>
+
+{{!-- <form>
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+  </div>
+  <div class="mb-3">
+    <label for="exampleInputPassword1" class="form-label">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1">
+  </div>
+  <div class="mb-3 form-check">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form> --}}
+
